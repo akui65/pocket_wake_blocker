@@ -1,0 +1,8 @@
+# 编译产物
+sensor_keepalive
+
+# 打包文件
+*.zip
+
+# 日志
+*.log

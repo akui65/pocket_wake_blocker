@@ -1,0 +1,6 @@
+id=pocket_wake_blocker
+name=口袋防误触（双击亮屏保护）
+version=v1.7
+versionCode=12
+author=酷安@HelllC
+description=HyperOS3(Android16) 息屏防误触：手机在口袋中时，双击亮屏/拿起亮屏等误触会被自动拦截并立即息屏，正常使用不受影响；电源键亮屏与手移开后均正常亮屏，无迟滞感。内置 sensor_keepalive 常驻采样守护（按状态启停：息屏运行/亮屏停止，主循环节流+0.2Hz 低频采样，功耗极低），持续启用接近传感器（on-change 型），遮挡/移开实时上报 0=近/5=远，息屏后立即盖住也能即时拦截；电源键监听优先 pmic_pwrkey 设备。屏幕点亮瞬间连续采样接近传感器，现场最新读数为准，为近即强制息屏。适配昇佳 stk_stk3a7x。配置：/data/adb/pocket_wake_blocker.conf，日志：/data/local/tmp/pocket_wake_blocker.log
